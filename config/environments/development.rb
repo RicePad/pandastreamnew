@@ -1,4 +1,5 @@
 Rails.application.configure do
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
@@ -38,4 +39,6 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+    ENV['PANDASTREAM_URL'] = "http://a8704c6c854d69a031d8:efe2c61c3edfc7772556@api.pandastream.com:443/927a9d9xk37ded62422d4613229c156f"
+
 end

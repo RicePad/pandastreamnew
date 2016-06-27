@@ -1,0 +1,18 @@
+<h1> Video Upload </h1>
+<%= form_for(@video, multipart: true) do |f| %>
+  <div class="field">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.file_field :panda_video_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit 'Make a friend' %>
+  </div>
+<% end %>
+
+<h1> show video </h1>
+
+
+<%= link_to "new user",  new_user_path %>
